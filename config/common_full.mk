@@ -1,4 +1,4 @@
-# Inherit common PixelExperience stuff
-$(call inherit-product, vendor/aosp/config/common.mk)
+# Inherit common fluent stuff
+$(call inherit-product, vendor/fluent/config/common.mk)
 
 PRODUCT_SIZE := full

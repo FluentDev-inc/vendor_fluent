@@ -17,5 +17,5 @@
         </signature>
     </webviewprovider>
     <webviewprovider availableByDefault="true" description="Google WebView Debug" packageName="com.google.android.webview.debug"/>
-    <webviewprovider availableByDefault="true" description="AOSP WebView" packageName="com.android.webview"/>
+    <webviewprovider availableByDefault="true" description="fluent WebView" packageName="com.android.webview"/>
 </webviewproviders>

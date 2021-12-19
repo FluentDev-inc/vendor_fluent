@@ -12,16 +12,16 @@ endif
 ADDITIONAL_SYSTEM_PROPERTIES  += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
-# AOSP recovery flashing
-ifeq ($(TARGET_USES_AOSP_RECOVERY),true)
+# fluent recovery flashing
+ifeq ($(TARGET_USES_fluent_RECOVERY),true)
 ADDITIONAL_SYSTEM_PROPERTIES  += \
     persist.sys.recovery_update=true
 endif
 
 # Versioning props
 ADDITIONAL_SYSTEM_PROPERTIES  += \
-    org.pixelexperience.version=$(CUSTOM_VERSION_PROP) \
-    org.pixelexperience.version.display=$(CUSTOM_VERSION) \
-    org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
-    org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
-    org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE)
+    org.fluent.version=$(CUSTOM_VERSION_PROP) \
+    org.fluent.version.display=$(CUSTOM_VERSION) \
+    org.fluent.build_date=$(CUSTOM_BUILD_DATE) \
+    org.fluent.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
+    org.fluent.build_type=$(CUSTOM_BUILD_TYPE)
