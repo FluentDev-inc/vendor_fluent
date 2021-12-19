@@ -13,7 +13,7 @@ ADDITIONAL_SYSTEM_PROPERTIES  += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
 # fluent recovery flashing
-ifeq ($(TARGET_USES_fluent_RECOVERY),true)
+ifeq ($(TARGET_USES_FLUENT_RECOVERY),true)
 ADDITIONAL_SYSTEM_PROPERTIES  += \
     persist.sys.recovery_update=true
 endif

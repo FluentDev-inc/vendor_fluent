@@ -1,7 +1,7 @@
 # Branding
 $(call inherit-product, vendor/fluent/config/branding.mk)
 
-PRODUCT_BRAND ?= fluent
+PRODUCT_BRAND ?= FluentOS
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
